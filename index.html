@@ -5,24 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Salas Psico-Saúde</title>
+    <link rel="stylesheet" href="./assets/css/carousel.css">
+    <title>Sala Psico-Saúde</title>
     <script src="./assets/js/menu.js"></script>
+    
+    <script src="https://kit.fontawesome.com/644d79917c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header class="header header-open">
         <nav class="nav-bar">
             <div class="logo"> 
-                <h1>Salas PsicoSaúde</h1>
+                <h1>Sala PsicoSaúde</h1>
             </div>
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">inicio</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">salas</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">contato</a></li>
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Salas</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
                 </ul>
             </div>
             <div class="login-button">
-                <button><a href="#">Entrar</a></button>
+                <button><a href="#">Mais informações</a></button>
             </div>
             <div class="mobile-menu-icon">
                 <button onclick="menuShow()"><img class="icon" src="./assets/img/menu-icon-30.png" alt=""></button>
@@ -30,15 +33,36 @@
         </nav>
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="#" class="nav-link">inicio</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">salas</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">contato</a></li>
+                <li class="nav-item"><a href="./index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Salas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
             </ul>
             <div class="login-button">
-                <button><a href="#">Entrar</a></button>
+                <button><a href="https://api.whatsapp.com/send/?phone=5511955587788&text&type=phone_number&app_absent=0"">Mais informações</a></button>
             </div>
         </div>
     </header>
-   
+    <section>
+        <div class="container">
+            <button class="arrow-left control" aria-label="Previus image">
+                <i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i>
+            </button>
+            <button class="arrow-right control" aria-label="next image">
+                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+            </button>
+            <div class="gallery-wrapper">
+                <div class="gallery">
+                    <img src="http://source.unsplash.com/random/1500x700/?florest" class='item'alt="">
+                    <img src="http://source.unsplash.com/random/1500x700/?garden" class='item' alt="">
+                    <img src="http://source.unsplash.com/random/1500x700/?moon" class='item'alt="">
+                    <img src="http://source.unsplash.com/random/1500x700/?beach" class='item current-item' alt="">
+                </div>
+            </div>
+        </div>
+        <div class="textinho">
+            <h2 id="textinho">A 5 minutos do metrô Ana Rosa</h2>
+        </div>
+    </section>
+    <script src="./assets/js/carousel.js"></script>
 </body>
 </html>
