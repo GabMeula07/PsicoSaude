@@ -3,6 +3,7 @@ let currentItem = 0;
 const items = document.querySelectorAll('.item')
 const maxItems = items.length;
 const txtItems = document.querySelector(".textinho")
+
 controls.forEach((control) => {
     control.addEventListener("click", () => {
         const isLeft = 

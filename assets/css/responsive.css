@@ -1,0 +1,99 @@
+@media screen and (max-width: 1105px){
+    article{
+        column-gap: 3em;
+    }
+    .chefes img{
+        width: 23em;
+        height: 23em;
+    }
+}
+@media screen and (max-width: 890px){
+    article{
+        column-gap: 3em;
+       
+    }
+    .chefes img{
+        width: 20em;
+        height: 20em;
+    }
+    .textinho{
+        font-size: 16pt;
+    }
+}
+@media screen and (max-width: 750px){
+    article{
+        column-gap: 3em;
+       height: auto ;
+       padding: 3em 1.25em;
+    }
+    .chefes img{
+        width: 18em;
+        height: 18em;
+    }
+    .chefes h2{
+        font-size: 16pt;
+    }
+    .textinho{
+        font-size: 13pt;
+    }
+}
+@media screen and (max-width: 650px){
+    article{
+        column-gap: 3em;
+       height: auto ;
+       padding: 3em 1.25em;
+    }
+    .chefes img{
+        width: 17em;
+        height: 17em;
+    }
+    .chefes h2{
+        font-size: 14pt;
+    }
+    .textinho{
+        font-size: 11pt;
+    }
+}
+@media screen and (max-width: 650px){
+    article{
+        row-gap: 3em;
+       height: auto ;
+       padding: 3em 3em;
+       flex-direction: column;
+    }
+    .textinho{
+        width: auto;
+        margin: 0em 1.25em;
+    }
+}
+@media screen and (max-width: 650px){
+    article{
+       height: auto ;
+       padding: 3em 1em;
+    
+    }
+    .textinho{
+        width: auto;
+        margin: 0em 1.25em;
+    }
+}
+@media screen and (max-width: 350px){
+    .nav-bar{
+        column-gap: 2em;
+    }
+}
+@media screen and (max-width: 350px){
+    .nav-bar{
+        column-gap: 2.5em;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 300px){
+    .nav-bar{
+        column-gap: 1.25em;
+        align-items: center;
+    }
+    .textinho{
+        font-size: 10pt;
+    }
+}

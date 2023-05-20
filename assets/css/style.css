@@ -16,6 +16,8 @@ header {
 .nav-bar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    column-gap: 3em;
     padding: 1.5rem 6rem;
 }
 
@@ -31,6 +33,7 @@ header {
     font-size: 2.4rem;
     text-shadow: 1px 1px 2px #026b43;
     cursor: default;
+    text-align: center;
 }
 
 .nav-list {
@@ -82,7 +85,7 @@ header {
     display: none;
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 895px) {
     header{
         column-gap: 1.3rem;
     }
@@ -90,6 +93,7 @@ header {
         font-size: 1.7rem;
         text-shadow: 1px 1px 2px #026b43;
         cursor: pointer;
+        text-align: center;
     }
     .nav-bar {
         padding: 1.5rem 4rem;
@@ -100,8 +104,13 @@ header {
     .login-button {
         display: none;
     }
+
+    .mobile-menu{
+        animation-name: menur;
+    }
     .mobile-menu-icon {
         display: block;
+        
     }
     .mobile-menu-icon button {
         background-color: transparent;
@@ -113,22 +122,52 @@ header {
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
+        mask-clip:initial;
+        animation-name: menu;
+        animation-duration: 1.5s;
     }
     .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
+       
     }
     .mobile-menu .login-button {
         display: block;
         padding: 1rem 2rem;
+     
     }
     .mobile-menu .login-button button {
         width: 100%;
     }
     .open {
         display: block;
+        animation-name: menu;
+        
     }
     
+}
+
+@keyframes menu {
+    0%{
+        height: 2px;
+        overflow-y: auto;
+        overflow-y: hidden;
+    }
+    100%{
+        height: 130px;
+    }
+}
+
+@keyframes menur{
+    0%{
+        height: 180px;
+        
+    }
+    100%{
+        height: 2px;
+        overflow-y: auto;
+        overflow-y: hidden;
+    }
 }
 
 /* carousel */
@@ -161,11 +200,11 @@ header {
 article{
     display: flex;
     justify-content: center;
-    column-gap: 7em;
+    column-gap: 6em;
     align-items: center;
-    height: 40em;
+    height: auto;
     background-color: beige;
-    padding-left: 20px;
+    padding: 3em 1.25em;
 }
 .chefes{
     display: flex;
@@ -189,3 +228,4 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
