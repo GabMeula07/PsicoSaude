@@ -51,7 +51,7 @@
     height:  35%;
     flex-shrink: 0;
     opacity: 0.6;
-    transition: all 600ms ease-in-out;
+    transition: all 600ms step-end;
 }
 .current-item{
     opacity: 1;

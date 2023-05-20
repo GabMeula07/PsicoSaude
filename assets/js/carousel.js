@@ -22,10 +22,7 @@ controls.forEach((control) => {
             currentItem = maxItems -1;
         }
         items.forEach(item => item.classList.remove('current-item'));
-        items[currentItem].scrollIntoView({
-            inline: "center", behavior:"auto", 
-            
-        })
+        items[currentItem].scrollIntoView({ inline: "center", behavior:"smooth" })
         items[currentItem].classList.add("current-item")
 
         
