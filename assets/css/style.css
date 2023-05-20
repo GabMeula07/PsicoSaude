@@ -197,6 +197,35 @@ header {
 
 }
 
+.container2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    column-gap: 6em;
+    align-items: center;
+    height: auto;
+    padding: 3em 1.25em;
+}
+.textinho2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 40em;
+    height: 20em;
+    padding: 20px;
+    background-color: #2e2e2e;
+    color: #fff;
+    position: relative;
+    margin-left: 0 auto;
+    font-size: 20pt;
+    border-radius: 10px;
+}
+.textinho2 h2{
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
 article{
     display: flex;
     justify-content: center;
