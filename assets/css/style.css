@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@600;700&family=Montserrat:wght@300;400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Courgette&family=Dancing+Script:wght@500&family=La+Belle+Aurore&family=Montserrat:wght@300;400;500;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -15,11 +14,12 @@ header {
 
 .nav-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     column-gap: 3em;
     padding: 1.5rem 6rem;
 }
+
 
 .logo {
     display: flex;
@@ -29,9 +29,9 @@ header {
 
 .logo h1 {
     color: #fff;
-    font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
-    font-size: 2.4rem;
-    text-shadow: 1px 1px 2px #026b43;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px #2d2d2d;
     cursor: default;
     text-align: center;
 }
@@ -54,121 +54,21 @@ header {
 .nav-link {
     text-decoration: none;
     font-size: 1.3rem;
-    color: #026b43;
+    color: #2e2e2e;
     font-weight: 400;
-    
 }
 .nav-link:hover{
     text-decoration: underline;
-    transition: 3s;
+
 }
 
-.login-button button {
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    background-color: #026b43;
-}
 
-.login-button button a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: 1.1rem;
-}
 
-.mobile-menu-icon {
-    display: none;
-}
 
-.mobile-menu {
-    display: none;
-}
 
-@media screen and (max-width: 895px) {
-    header{
-        column-gap: 1.3rem;
-    }
-    .logo h1{
-        font-size: 1.7rem;
-        text-shadow: 1px 1px 2px #026b43;
-        cursor: pointer;
-        text-align: center;
-    }
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
-    .nav-item {
-        display: none;
-    }
-    .login-button {
-        display: none;
-    }
 
-    .mobile-menu{
-        animation-name: menur;
-    }
-    .mobile-menu-icon {
-        display: block;
-        
-    }
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-        mask-clip:initial;
-        animation-name: menu;
-        animation-duration: 1.5s;
-    }
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-       
-    }
-    .mobile-menu .login-button {
-        display: block;
-        padding: 1rem 2rem;
-     
-    }
-    .mobile-menu .login-button button {
-        width: 100%;
-    }
-    .open {
-        display: block;
-        animation-name: menu;
-        
-    }
-    
-}
 
-@keyframes menu {
-    0%{
-        height: 2px;
-        overflow-y: auto;
-        overflow-y: hidden;
-    }
-    100%{
-        height: 130px;
-    }
-}
 
-@keyframes menur{
-    0%{
-        height: 180px;
-        
-    }
-    100%{
-        height: 2px;
-        overflow-y: auto;
-        overflow-y: hidden;
-    }
-}
 
 /* carousel */
 
