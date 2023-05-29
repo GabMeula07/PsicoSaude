@@ -1,139 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/carousel2.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/salas.css" />
+
     <title>Salas</title>
-    <script src="./assets/js/menu.js"></script>
-    
-    <script src="https://kit.fontawesome.com/644d79917c.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header class="header header-open">
-        <nav class="nav-bar">
-            <div class="logo"> 
-                <h1>Sala PsicoSaúde</h1>
-            </div>
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="./index.html" class="nav-link">Inicio</a></li>
-                    <li class="nav-item"><a href="./salas.html" class="nav-link">Salas</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
-                </ul>
-            </div>
-            <div class="login-button">
-                <button><a href="https://api.whatsapp.com/send/?phone=5511955587788&text&type=phone_number&app_absent=0">Mais informações</a></button>
-            </div>
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="./assets/img/menu-icon-30.png" alt=""></button>
-            </div>
-        </nav>
-        <div class="mobile-menu">
-            <ul>
-                <li class="nav-item"><a href="./index.html" class="nav-link">Inicio</a></li>
-                <li class="nav-item"><a href="./salas.html" class="nav-link">Salas</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
-            </ul>
-            <div class="login-button">
-                <button><a href="https://api.whatsapp.com/send/?phone=5511955587788&text&type=phone_number&app_absent=0">Mais informações</a></button>
-            </div>
+    <script
+      src="https://kit.fontawesome.com/644d79917c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-bar">
+        <div class="logo">
+          <h1>Salas PsicoSaúde</h1>
         </div>
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="./salas.html" class="nav-link">Salas</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://api.whatsapp.com/send/?phone=5511955587788&text&type=phone_number&app_absent=0"
+                class="nav-link"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <section>
-        <h1>Sala 1</h1>
-        <div class="container">
-            <button class="arrow-left control" aria-label="Previus image">
-                <i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i>
-            </button>
-            <button class="arrow-right control" aria-label="next image">
-                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
-            </button>
-            <div class="gallery-wrapper">
-                <div class="gallery">
-                    <img src="http://source.unsplash.com/random/300x300/?florest" class='item current-item'alt="">
-                    <img src="http://source.unsplash.com/random/300x300/?garden" class='item' alt="">
-                    <img src="http://source.unsplash.com/random/300x300/?moon" class='item'alt="">
-                    <img src="http://source.unsplash.com/random/300x300/?beach" class='item ' alt="">
-                </div>
-            </div>
-        </div>
-        <h1>Sala 2</h1>
-        <div class="container">
-            <button class="arrow-left control" aria-label="Previus image">
-                <i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i>
-            </button>
-            <button class="arrow-right control" aria-label="next image">
-                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
-            </button>
-            <div class="gallery-wrapper">
-                <div class="gallery">
-                    <img src="http://source.unsplash.com/random/300x300/?florest" class='item current-item'alt="">
-                    <img src="http://source.unsplash.com/random/300x300/?garden" class='item' alt="">
-                    <img src="http://source.unsplash.com/random/300x300/?moon" class='item'alt="">
-                    <img src="http://source.unsplash.com/random/300x300/?beach" class='item ' alt="">
-                </div>
-            </div>
-        </div>
-        <h1>Sala 3</h1>
-        <div class="container">
-            <button class="arrow-left control" aria-label="Previus image">
-                <i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i>
-            </button>
-            <button class="arrow-right control" aria-label="next image">
-                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
-            </button>
-            <div class="gallery-wrapper">
-                <div class="gallery">
-                    <img src="http://source.unsplash.com/random/300x300/?florest" class='item current-item'alt="">
-                    <img src="http://source.unsplash.com/random/300x300/?garden" class='item' alt="">
-                    <img src="http://source.unsplash.com/random/300x300/?moon" class='item'alt="">
-                    <img src="http://source.unsplash.com/random/300x300/?beach" class='item ' alt="">
-                </div>
-            </div>
-        </div>
-        <h1>Sala 4</h1>
-        <div class="container">
-            <button class="arrow-left control" aria-label="Previus image">
-                <i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i>
-            </button>
-            <button class="arrow-right control" aria-label="next image">
-                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
-            </button>
-            <div class="gallery-wrapper">
-                <div class="gallery">
-                    <img src="http://source.unsplash.com/random/300x300/?florest" class='item current-item'alt="">
-                    <img src="http://source.unsplash.com/random/300x300/?garden" class='item' alt="">
-                    <img src="http://source.unsplash.com/random/300x300/?moon" class='item'alt="">
-                    <img src="http://source.unsplash.com/random/300x300/?beach" class='item ' alt="">
-                </div>
-            </div>
-        </div>
-        <h1>Sala 5</h1>
-        <div class="container">
-            <button class="arrow-left control" aria-label="Previus image">
-                <i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i>
-            </button>
-            <button class="arrow-right control" aria-label="next image">
-                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
-            </button>
-            <div class="gallery-wrapper">
-                <div class="gallery">
-                    <img src="http://source.unsplash.com/random/300x300/?florest" class='item current-item'alt="">
-                    <img src="http://source.unsplash.com/random/300x300/?garden" class='item' alt="">
-                    <img src="http://source.unsplash.com/random/300x300/?moon" class='item'alt="">
-                    <img src="http://source.unsplash.com/random/300x300/?beach" class='item ' alt="">
-                </div>
-            </div>
-        </div>
+
+    <ul class="salas">
+      <li><a href="./salas/sala1.html">Sala 1</a></li>
+      <li><a href="./salas/sala2.html">Sala 2</a></li>
+      <li><a href="./salas/sala3.html">Sala 3</a></li>
+      <li><a href="./salas/sala4.html">Sala 4</a></li>
+      <li><a href="./salas/sala5.html">Sala 5</a></li>
+    </ul>
+    <section class="box">
+      <article id="request">
+        <h1 id="selecione">Selecione uma sala</h1>
+      </article>
+      <div class="box-agenda">
+        <p>Gostou de alguma ? Agende com a gente!</p>
+        <a
+          href="https://api.whatsapp.com/send/?phone=5511955587788&text&type=phone_number&app_absent=0"
+          >Agendar</a
+        >
+      </div>
     </section>
 
     <footer>
-        <h1 style="color: #ffffff;"> Aqui vai ficar o Rodapé</h1>
+      <div class="cabelalho-txt">
+        <p>Telefone: 11 9 55587788</p>
+        <p>email: spsicosaude@gmail.com</p>
+        <p>Endereço: R. Ambrosina de Macedo, 208</p>
+        <p>Vila Mariana, São Paulo - SP, 04013-030</p>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d741.1461383411994!2d-46.64240971647009!3d-23.582798176090716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cb55d3255b%3A0x5d0d004011f87f7!2sSala%20Psico%20Sa%C3%BAde!5e0!3m2!1spt-BR!2sbr!4v1684610514797!5m2!1spt-BR!2sbr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        id="map"
+      ></iframe>
     </footer>
-    <script src="./assets/js/carousel.js"></script>
- 
-</body>
+    <script src="/assets/js/salas.js"></script>
+    <script src="/assets/js/request.js"></script>
+  </body>
 </html>
