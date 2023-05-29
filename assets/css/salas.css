@@ -184,19 +184,80 @@
   .box {
     flex-direction: column;
   }
+  h1{
+    font-size: 22pt;
+    margin-bottom: 1.4em;
+}
+.slider1 {
+width: 500px;
+height: 450px;
+}
+.slides1 {
+width: 400%;
+height: 450px;
+}
+.slide {
+width: 25%;
+position: relative;
+}
+.slide img {
+width: 500px;
+}
+.manual-navigation {
+width: 500px;
+margin-top: -60px;
+}
+.navigation-auto {
+width: 500px;
+margin-top: 390px;
+}
+.box-agenda{
+text-align: center;
+}
 }
 @media screen and (max-width: 680px) {
   #selecione {
     font-size: 40pt;
   }
+
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 590px) {
   .box-agenda {
     font-size: 16pt;
   }
   .box-agenda a {
     font-size: 17pt;
   }
+  h1{
+    font-size: 22pt;
+    margin-bottom: 1.4em;
+}
+.slider1 {
+width: 400px;
+height: 350px;
+}
+.slides1 {
+width: 400%;
+height: 350px;
+}
+.slide {
+width: 25%;
+position: relative;
+}
+.slide img {
+width: 400px;
+}
+.manual-navigation {
+width: 400px;
+margin-top: -40px;
+}
+.navigation-auto {
+width: 400px;
+margin-top: 310px;
+}
+.box-agenda{
+text-align: center;
+}
 }
 @media screen and (max-width: 487px) {
   .salas {
